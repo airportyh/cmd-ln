@@ -17,8 +17,8 @@ npm install cmd-ln
 #! /usr/bin/env node
 var cmdLn = require('cmd-ln')
 
-cmdLn(function(foo, bar){
-  console.log('I am going to do', foo, 'with', bar + '.')
+cmdLn(function(action, subject){
+  console.log('I am going to do', action, 'with', subject + '.')
 })
 ```
 
@@ -28,8 +28,8 @@ Running that and get.
 $ program make lemonade
 I am going to do make with lemonade.
 $ program make
-Usage: program <foo> <bar>
+Usage: program <action> <subject>
 $ program
-Usage: program <foo> <bar>
+Usage: program <action> <subject>
 ```
 
