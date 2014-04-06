@@ -1,6 +1,6 @@
 {
   "name": "cmd-ln",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Converts command-line arguments to function arguments - for simple CLI programs.",
   "main": "index.js",
   "author": "Toby Ho",
