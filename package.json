@@ -1,0 +1,12 @@
+{
+  "name": "cmd-ln",
+  "version": "0.0.0",
+  "description": "Converts command-line arguments to function arguments - for simple CLI programs.",
+  "main": "index.js",
+  "author": "Toby Ho",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/airportyh/cmd-ln.git"
+  }
+}
