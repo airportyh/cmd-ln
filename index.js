@@ -7,7 +7,7 @@ module.exports = function(fn){
     console.log('Usage: ' + executable + ' ' +
       params.map(function(param){
         return '<' + param + '>'
-      }))
+      }).join(' '))
     process.exit(1)
   }else{
     fn.apply(null, process.argv.slice(2))
